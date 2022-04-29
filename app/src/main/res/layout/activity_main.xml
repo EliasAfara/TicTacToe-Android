@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Made at"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_main_epita_logo"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/activity_main_epita_logo"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/epita_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="An applicaiton by Elias Afara"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="cursive"
+        android:text="Tic Tac Toe New"
+        android:textColor="#F65D51"
+        android:textSize="42sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/activity_main_moreInfoWiki"
+        android:layout_width="47dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_info_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="40dp"
+        android:text="Current Player:   "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_main_title" />
+
+
+    <TextView
+        android:id="@+id/main_activity_current_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice22"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="233dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/choice21"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice12"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="376dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice11"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="376dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice21"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="496dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice20"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="496dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice10"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="376dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice02"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="236dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/choice01"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice01"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="120dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/choice12"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        tools:text="X" />
+
+    <TextView
+        android:id="@+id/choice00"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/choice11"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="O" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="@+id/choice21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/tictactoe_background" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
