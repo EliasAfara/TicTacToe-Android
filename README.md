@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Screenshots/MainActivity.png" width="200" hspace="10" vspace="10" title="MainActivity Screen"> <img src="./Screenshots/MainActivity02.png" width="200" hspace="10" vspace="10" title="MainActivity Screen #2"> <img src="./Screenshots/PlayerActivity.png" width="200" hspace="10" vspace="10" title="PlayerActivity Screen"> <img src="./Screenshots/ScoreActivity.png" width="200" hspace="10" vspace="10" title="ScoreActivity Screen">
+  <img src="./Screenshots/MainActivity02.png" width="200" hspace="10" vspace="10" title="MainActivity Screen"> <img src="./Screenshots/PlayerActivity.png" width="200" hspace="10" vspace="10" title="PlayerActivity Screen"> <img src="./Screenshots/ScoreActivity.png" width="200" hspace="10" vspace="10" title="ScoreActivity Screen">
 </=>
 
 
