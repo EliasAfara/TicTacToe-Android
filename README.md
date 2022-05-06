@@ -10,6 +10,9 @@
         <img src="https://img.shields.io/badge/platform-Android-yellow.svg" /></a>
     <a alt="LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
+    <a href="https://github.com/EliasAfara/TicTacToe-Android" target="_blank">
+        <img src="https://img.shields.io/github/repo-size/EliasAfara/TicTacToe-Android"
+            alt="Github repo size"></a>
     <a href="https://github.com/EliasAfara" target="_blank">
         <img src="https://img.shields.io/github/followers/eliasafara?label=Follow&style=social"
             alt="follow on Github"></a>
