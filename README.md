@@ -6,14 +6,14 @@
 # Tic Tac Toe Game - Android Application
 
 <p align="center">
-    <a href="https://www.android.com" alt="Android">
+    <a href="https://www.android.com" alt="Android" target="_blank">
         <img src="https://img.shields.io/badge/platform-Android-yellow.svg" /></a>
     <a alt="LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
-    <a href="https://github.com/EliasAfara">
-        <img src="https://img.shields.io/github/followers/eliasafara?label=Followers&style=social"
+    <a href="https://github.com/EliasAfara" target="_blank">
+        <img src="https://img.shields.io/github/followers/eliasafara?label=Follow&style=social"
             alt="follow on Github"></a>
-    <a href="https://twitter.com/intent/follow?screen_name=thegrindev">
+    <a href="https://twitter.com/intent/follow?screen_name=thegrindev" target="_blank">
         <img src="https://img.shields.io/twitter/follow/thegrindev?style=social&logo=twitter"
             alt="follow on Twitter"></a>
 </p>
