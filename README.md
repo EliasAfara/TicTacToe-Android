@@ -49,7 +49,7 @@ This app comprises three screens. The game itself, a player input intermediate s
 ```
 MIT License
 
-Copyright (c) 2020 Happy Singh
+Copyright (c) 2022 Elias Afara
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
